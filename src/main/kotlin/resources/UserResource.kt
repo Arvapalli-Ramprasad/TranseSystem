@@ -33,6 +33,7 @@ class UserResource @Inject constructor(private val userService: UserService) {
     @Produces(MediaType.APPLICATION_JSON)
     fun getUserByUserId(@PathParam("userId") userId: String): Response{
         val user = userService.getUserByUserId(userId)
+
         return Response.ok(user).build();
     }
 }
