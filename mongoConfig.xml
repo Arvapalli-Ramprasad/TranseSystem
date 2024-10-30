@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <mongo>
+        <host>localhost</host>
+        <port>27017</port>
+        <database>TranseSystem</database>
+    </mongo>
+    <server>
+        <host>localhost</host>
+        <port>8080</port>
+    </server>
+    <entry key="kafka.bootstrap.servers">pkc-xrnwx.asia-south2.gcp.confluent.cloud:9092</entry>
+    <entry key="kafka.username">R3BWA5ERKE5PAJX2</entry>
+    <entry key="kafka.password">WQUhf5Yz+4us/mprdHUE6/c5ZVkGEy0+mL8cXZlWXs7hbYxRWBccWD3YI4Iw2d78</entry>
+    <entry key="kafka.topic">topic_0</entry>
+</configuration>
